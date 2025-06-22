@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.log
+*.sqlite3
+
+# Virtual environment
+.env/
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+
+# Environment variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/config.toml
+
+# Pytest cache
+.pytest_cache/
+
+# Cache and build
+dist/
+build/
+*.egg
+.cache/
+coverage/
+htmlcov/
+
+# LangChain tracing (optional, if used)
+lc_logs/
